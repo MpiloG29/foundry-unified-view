@@ -1,19 +1,17 @@
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
 
-# Large data files (optional - you can include them if you want)
-# app/*.parquet
+# Temporary files
+*.tmp
+*.temp
 
-# Generated zip files
-*.zip
-submission.zip
-technical_assessment_submission.zip
-manufacturing_analysis_results.zip
-
-# Generated images (optional - include if you want to show them)
-# *.png
-# *.jpg
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # System files
 .DS_Store
@@ -24,12 +22,6 @@ venv/
 env/
 .venv/
 
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Temporary files
-*.tmp
-*.temp
+# Large generated files (we'll add manually what we need)
+# submission.zip
+# create_zip.bat
