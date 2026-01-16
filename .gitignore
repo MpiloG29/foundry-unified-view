@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Large data files (optional - you can include them if you want)
+# app/*.parquet
+
+# Generated zip files
+*.zip
+submission.zip
+technical_assessment_submission.zip
+manufacturing_analysis_results.zip
+
+# Generated images (optional - include if you want to show them)
+# *.png
+# *.jpg
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
