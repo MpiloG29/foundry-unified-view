@@ -34,6 +34,8 @@ data from each process that needs to be extracted and aligned.
 
 2. You will have to execute the processing and alignment operations (merging) for four data sets and critically
 review the outcome. Do not hesitate to share images and snippets of data to support your comments.
+<img width="1756" height="1475" alt="final_dashboard" src="https://github.com/user-attachments/assets/3a48294f-16f2-4d84-9888-dc1d5cc38932" />
+
 
 
 ## DATASETS
@@ -42,7 +44,6 @@ Parts are produced per batch of the same product type. A part is produced every 
 and has a unique part identifier. Batches of the same product type are identified with the product 
 type name which is logged on the control system when the type changes and will apply from the next part.
 
-<img width="570" alt="Screenshot 2024-09-13 at 12 35 54" src="https://github.com/user-attachments/assets/e7949201-92e1-40a2-b6c5-ec586be23221">
 
 
 2. pressure_data_df:
@@ -51,23 +52,15 @@ During casting, the pressure senosr logs the exerted pressure every 10 seconds
 a pressure cycle that lasts for ~30 minutes and resets when casting is completed.
 You will need to extract the maximum pressure reached for each cycle and the time elapsed (in minutes) from when to production cycle starts to the moment this peak is reached 
 
-<img width="293" alt="Screenshot 2024-09-13 at 12 31 56" src="https://github.com/user-attachments/assets/eb05cc60-f530-492b-9644-231215e8cae9">
-
-<img width="1084" alt="Screenshot 2024-09-13 at 12 32 16" src="https://github.com/user-attachments/assets/31158ce4-70e6-4af1-86bf-adba4c7b3de3">
-
 
 3. temperature_data_df:
 The casting temperature is recorded at the beginning of the casting cycle (in the first 10 minutes)
-
-<img width="1072" alt="Screenshot 2024-09-13 at 12 33 23" src="https://github.com/user-attachments/assets/9a2436d7-1265-4d05-be39-2f2d2ed12dd3">
 
 
 4. silicon_data_df:
 Bulk quantities of metal are melted in the furnace, and as a result, the chemistry remains
 relatively similar for a few hours of production, and is therefore recorded less frequently.
 The silicon in particular is recorded every ~4 hours, and should apply for the next 4 hours of production.
-
-<img width="225" alt="Screenshot 2024-09-13 at 12 32 26" src="https://github.com/user-attachments/assets/ae3f3586-12f3-4ddb-83a5-9d618057c4d1">
 
 
 ## RECOMMENDATIONS
