@@ -1,12 +1,12 @@
-,unique_part_identifier,cycle_start_timestamp,PART_TYPE,max_pressure,time_to_peak_min,avg_pressure,pressure_variance,pressure_duration_min,casting_temperature_C,silicon_content_percent,production_hour,production_day
-count,100,100,100,100.0,100.0,100.0,100.0,100.0,100.0,45.0,100.0,100
-unique,100,,4,,,,,,,,,3
-top,PART_000,,Engine_Block,,,,,,,,,2024-01-15
-freq,1,,40,,,,,,,,,48
-mean,,2024-01-16 00:45:00,,5.04,21.35,3.54,0.86,29.83,719.72,1.0,11.06,
-min,,2024-01-15 00:00:00,,4.97,21.0,3.53,0.83,29.83,674.75,0.83,0.0,
-25%,,2024-01-15 12:22:30,,5.01,21.0,3.54,0.85,29.83,711.27,0.88,5.0,
-50%,,2024-01-16 00:45:00,,5.04,21.25,3.54,0.86,29.83,719.26,0.97,11.0,
-75%,,2024-01-16 13:07:30,,5.06,21.5,3.54,0.87,29.83,729.08,1.13,17.0,
-max,,2024-01-17 01:30:00,,5.11,22.5,3.56,0.89,29.83,760.16,1.16,23.0,
-std,,,,0.03,0.35,0.01,0.01,0.0,15.12,0.12,7.15,
+,unique_part_identifier,part_type,production_batch_id,cycle_start_timestamp,pressure_cycle_end_timestamp,max_pressure,peak_pressure_timestamp,time_to_peak_min,avg_pressure,pressure_variance,pressure_duration_min,casting_temperature_C,temperature_timestamp,silicon_content_percent,silicon_timestamp,pressure_outlier,temperature_outlier,silicon_drift_alert,missing_alignment_alert,temperature_stability_index,unified_part_quality_index,production_hour,production_day
+count,100,100,100,100,100,100.0,100,100.0,100.0,100.0,100.0,100.0,100,53.0,53,100,100,100,100,100.0,100.0,100.0,100
+unique,100,4,5,,100,,100,,,,,,100,,7,2,2,2,2,,,,3
+top,PART_000,Engine_Block,BATCH_001,,2024-01-15 00:29:50,,2024-01-15 00:21:30,,,,,,2024-01-15 00:08:58.770206,,2024-01-15 02:54:16.286117,False,False,False,False,,,,2024-01-15
+freq,1,40,30,,1,,1,,,,,,1,,8,96,97,98,53,,,,48
+mean,,,,2024-01-16 00:45:00,,5.04,,21.35,3.54,0.86,29.83,719.72,,0.99,,,,,,85.57,74.32,11.06,
+min,,,,2024-01-15 00:00:00,,4.97,,21.0,3.53,0.83,29.83,674.75,,0.83,,,,,,80.74,40.7,0.0,
+25%,,,,2024-01-15 12:22:30,,5.01,,21.0,3.54,0.85,29.83,711.27,,0.88,,,,,,83.08,64.72,5.0,
+50%,,,,2024-01-16 00:45:00,,5.04,,21.25,3.54,0.86,29.83,719.26,,0.97,,,,,,85.35,77.4,11.0,
+75%,,,,2024-01-16 13:07:30,,5.06,,21.5,3.54,0.87,29.83,729.08,,1.13,,,,,,88.34,88.3,17.0,
+max,,,,2024-01-17 01:30:00,,5.11,,22.5,3.56,0.89,29.83,760.16,,1.16,,,,,,91.9,88.3,23.0,
+std,,,,,,0.03,,0.35,0.01,0.01,0.0,15.12,,0.11,,,,,,3.5,13.12,7.15,

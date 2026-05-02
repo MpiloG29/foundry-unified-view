@@ -129,7 +129,7 @@ def generate_sample_data():
     silicon_df.to_parquet('app/furnace_silicon_data.parquet')
     print(f"Generated {len(silicon_df)} silicon readings")
     
-    print("\n✅ Sample data generation complete!")
+    print("\nSample data generation complete!")
     print("Generated files in 'app/' directory:")
     print("  - production_logging_data.parquet")
     print("  - pressure_data.parquet")

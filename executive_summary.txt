@@ -6,23 +6,16 @@ Production Period: 2024-01-15 to 2024-01-17
 Number of Part Types: 4
 Part Types: Brake_Caliper, Engine_Block, Gear_Casing, Wheel_Hub
 Average Max Pressure: 5.04
-Average Casting Temperature: 719.7°C
-Average Silicon Content: 1.00%
+Average Casting Temperature: 719.7 C
+Average Silicon Content: 0.99%
 Average Time to Peak Pressure: 21.4 minutes
-Data Completeness: 95.4%
+Average Quality Index: 74.3/100
+Data Completeness: 95.9%
 
 
 KEY FINDINGS:
 ------------------------------
-1. Production Process is Generally Stable
-2. All Part Types Show Consistent Pressure Profiles
-3. Temperature Control Varies by Part Type
-4. Silicon Data Collection Needs Improvement for Wheel_Hub
-
-
-RECOMMENDATIONS:
-------------------------------
-1. Investigate missing silicon data for Wheel_Hub production
-2. Monitor Engine_Block casting temperature for energy optimization
-3. Consider standardizing temperature ranges across part types
-4. Implement real-time monitoring for pressure consistency
+1. Core Unified View produces one row per unique part identifier.
+2. Silicon readings are aligned backward because each reading applies forward.
+3. Pressure, temperature, and silicon alert flags are available per part.
+4. Quality index and temperature stability KPIs support batch review.

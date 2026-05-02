@@ -3,3 +3,6 @@ numpy>=1.21.0
 matplotlib>=3.5.0
 pyarrow>=10.0.0
 jupyter>=1.0.0
+dash>=2.16.0
+plotly>=5.20.0
+gunicorn>=21.2.0
