@@ -4,7 +4,6 @@ A production analytics dashboard for aligning foundry process data into one clea
 
 This project takes four manufacturing data streams, production logs, pressure cycles, casting temperatures, and furnace silicon readings, and merges them into a unified dataframe where every row represents one produced part. It then exposes that dataset through static analysis reports and a live Dash dashboard ready for deployment on Render.
 
-![Final dashboard](final_dashboard.png)
 
 ## What This Solves
 
